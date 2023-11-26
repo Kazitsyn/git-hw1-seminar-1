@@ -51,11 +51,7 @@ def edit(st):
             file.write(lines[i])
     file.close()
 
-def press_any_key():
-    if os.name == 'nt':
-        os.system('pause')
-    else:
-        os.system('read -s -n 1 -p "Press any key to  continue ..."')
+
 
 def get_int_input(st=''):
     while True:

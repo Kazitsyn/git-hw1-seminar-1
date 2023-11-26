@@ -7,8 +7,7 @@ def add_contact():
     contact = first_name + ' ' + last_name + ' ' + phone + '\n'
     file = open('file.txt', 'a')
     file.write(contact)
-    file.close()
-    return contact
+   return contact
     
 
 def find():

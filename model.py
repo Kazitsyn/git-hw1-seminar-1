@@ -6,6 +6,7 @@ def add_contact():
     phone = input('Input phone: ')
     contact = first_name + ' ' + last_name + ' ' + phone + '\n'
     file = open('file.txt', 'a')
+    file.write(contact)
     file.close()
     return contact
     
